@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!--Karla Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+  <!--Fraunces Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>FAUAF Site Redesign</title>
+
+</head>
+
+
+<body>
+
+<section id="header" name="top">
+    <div class="topnav">
+        <div class="nav-left" id="nav-title"><a href="file:///Users/kathrynwilliams/Desktop/UX:UI%20Class/Coding/Code/GitHub/KW%20Portfolio/index.html" class="split">Kathryn Williams</a></div>
+        <div class="nav-right">
+          <ul class="topnav-items">
+            <li><a href="#skills">ABOUT ME</a></li>
+            <li class="dropdown">
+              <a class="btn btn-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PROJECTS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Friends of AUAF</a></li>
+                <li><a class="dropdown-item" href="file:///Users/kathrynwilliams/Desktop/UX:UI%20Class/Coding/Code/GitHub/KW%20Portfolio/elevate.html">Elevate Guatemala</a></li>
+                <li><a class="dropdown-item" href="#">National Parks Service</a></li>
+                <li><a class="dropdown-item" href="#">Infographics</a></li>
+                <li><a class="dropdown-item" href="#">Impact Report</a></li>
+                <li><a class="dropdown-item" href="#">Traverse</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><button class="buttonstandard" href="#resume">RESUME</button></li>
+          </ul>
+        </div>
+      </div>
+    <div id="fauaf_jumbotron"></div>
+</section>
+    
+<div class="container-fluid">
+    <div class="row">
+        <aside class="col-lg-3 col-md-3 d-none d-md-block" style="padding:0px !important;">
+            <div class="mt-3 mb-3 ms-3 me-1" id="sidemenu">
+                <ul class="nav flex-md-column flex-row justify-content-between">
+                    <li class="nav-item"><a href="#overview" class="nav-link active pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">OVERVIEW</a></li>
+                    <li class="nav-item"><a href="#research" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">RESEARCH</a>
+                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                            <li class="nav-item ms-3 my-1"><a href="#research-1" class="nav-link">Site Navigation</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#research-2" class="nav-link">Website Annotations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#definition" class="nav-link pl-0" style="font-size: 18px; font-weight: 400;  margin-bottom: 7px; margin-top: 10px;">DEFINE</a>
+                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                            <li class="nav-item ms-3 my-1"><a href="#definition-1" class="nav-link">Key User Insights</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#definition-2" class="nav-link">Stakeholder Concerns</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#definition-3" class="nav-link">Problem Statement</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#definition-4" class="nav-link">User Persona</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#ideate" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">IDEATE</a>
+                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                            <li class="nav-item ms-3 my-1"><a href="#ideate-1" class="nav-link">Site Map</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#ideate-2" class="nav-link">User Flow</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#ideate-3" class="nav-link">Sketches</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#prototype" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">PROTOTYPE</a>
+                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                            <li class="nav-item ms-3 my-1"><a href="#prototype-1" class="nav-link">Wireframes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#test" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">TEST</a>
+                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                            <li class="nav-item ms-3 my-1"><a href="#test-1" class="nav-link">Iterations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#conclusion" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">CONCLUSION</a>
+                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                            <li class="nav-item ms-3 my-1"><a href="#conclusion-1" class="nav-link">Final Output</a></li>
+                            <li class="nav-item ms-3 my-1"><a href="#conclusion-2" class="nav-link">Next Steps</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside> 
+           
+                <main class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-centered main-content ms-1" style="padding: 0;">
+            <div  data-bs-spy="scroll" data-bs-target="#sidemenu" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">  
+                <section id="overview" class="project_head">
+                    <h1>FRIENDS OF AUAF</h1>
+                    <p>I worked at Friends of the American University of Afghanistan (FAUAF), a 501(c)(3) non-profit supporting higher education in Afghanistan, for two years and successfully redesigned their website utilizing the skills I developed throughout my UX/UI Bootcamp- a passion project I had long dreamed of accomplishing.</p>
+                    <p>Having worked with various non-profits, I have a deep appreciation for their steadfast commitment to their missions. Unfortunately, this dedication often means that promotional efforts and marketing materials, like a website, take a backseat. However, a poorly designed website can have detrimental impacts, as it is often the first interaction potential donors have with an organization. With a keen understanding of FAUAF and their website’s potential, I redesigned the FAUAF website to highlight their impactful work, encourage donor acquisition and retention, and serve as a resource for those interested in education in Afghanistan. </p>
+                    <br>
+                    <h4>CHALLENGES</h4>
+                    <p>In recent years, Friends of the American University of Afghanistan (FAUAF) has encountered exceptional challenges in marketing its mission. After the Taliban seized control of Afghanistan in August of 2021, the American University of Afghanistan (AUAF) was forced to close its campus and move operations fully online. Today, the new regime’s policies prevent Afghan women from pursuing education beyond 6th grade and have forced western-style education institutions in the nation to shut down entirely. In response to this, AUAF now operates out of its hub in Education City in Doha, Qatar and continues to educate Afghan young men and women online in the secrecy of their homes. Protecting the safety and security of the AUAF students in Afghanistan who take unimaginable risks to continue their studies is the number one priority for the university and FAUAF. This principle heavily influences FAUAF’s marketing strategies, making them especially cautious when sharing the success of the university and its students. </p>
+                </section>
+
+                <section id="research" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">RESEARCH <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="research-1">
+                                    <h4 class="mt-0 mb-1">WEBSITE ANNOTATIONS</h4>
+                                    <p>Armed with user and stakeholder insights, we analyzed the existing Elevate Guatemala website and identified specific areas for improvement. </p>
+                                    <br>
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_homepage">
+                                            <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              Home Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="old_homepage" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image would be better situation above the quote.</li>
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_home_page.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_head">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              Page Head
+                                            </div>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="old_head" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>In the top navigation bar, the primary navigation headers are a bit hard to read. Perhaps increasing the font-weight would resolve this issue. The down arrows next to "About Us" and "Get Involved" should match the weight of the text. </li>
+                                                    <li>The space between "Events" and the donate button should be increased to match the space between each navigation item.</li>
+                                                    <li>Some of the elements, specifically the logo in the top left corner, the header image, and the green and white banner on the left side (with the title, "Donate Now" button, and newsletter subscription) are poorly aligned on the page. While the placement was intentional, the logo juts out from the top nav bar in a way that appears accidental. Similarly, the green and white banner does not expand to fit the height of the header, causing the white part of the banner to blend into the section background. This issue could be resolved by either fixing the height to fill the container or fixing the image to fill the width of the section. </li>
+                                                    <li>The donate button in the header does not match the style, or even font, of the donate button in the top navigation bar.</li>                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_header.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_footer">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Page Footer
+                                            </div>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="old_footer" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Overall, the footer takes up an excessive amount of space. It is practically the size of a full desktop screen.</li>
+                                                    <li>"Education Will Prevail" is very faint and hard to read (font-weight issue).</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    <li>The donate button is different from the donate button in the top nav bar and the header. This button has an added "now" and an added arrow. The font-weight is also much large, as is the button size itself.</li>
+                                                    <li>The image is featured on the homepage and therefor unnecessary. It also takes up a large amount of space.</li>
+                                                    <li>The five footer sections, "Visit Us," "Quick Links," "Newsletter," and "Social," and the "Candid" certification award image should either be left-aligned in two distinct rows or in one long row with the logo smaller and to the side. </li>
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_footer.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_about_us">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                              About Us Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="old_about_us" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Text is hard to read. Purspose of text is unclear and discovery requires a lot of reading.</li>
+                                                    <li>Timeline is actually a carousel of images which poses accessibility issues.</li>
+                                                    <li>Section style is inconsistent with the other sections on the page.</li>
+                                                    <li>"Honorees" should be in the similar style of "Board of Trustees."</li>
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_about_us.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="old_news&blog">
+                                              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                News & Blog Page
+                                              </div>
+                                            </h2>
+                                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="old_news&blog" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                  <ol>
+                                                      <li>Inconsistent content within cards. All cards should have an image, title, subtext, "read more" button and date.</li>
+                                                  </ol>
+                                                  <br>
+                                                  <img src="images/FAUAF/FAUAF_old_newsletter.png" style="width:100%">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_article">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                              News & Blog Article Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="old_article" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Post titles in the left "Recent Posts" column should not extend past the width of the preview image. The text juts out in a disorganized manner.</li>
+                                                    <li>Text is hard to read (font-weight should be increased and/or font-color should be darker)</li>
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_article.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_events">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                              Events Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="old_events" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>"Events" listed again in its own column on the left is both repetitive and a waste of space.</li>
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_home_page.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="old_2021event">
+                                              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                Example Event Page
+                                              </div>
+                                            </h2>
+                                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="old_2021event" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                  <ol>
+                                                      <li>Width of text box is too wide and inconsistent with the other pages. Text is also difficult to read (font-weight should be increased).</li>
+                                                      <li>Title font is inconsistent with the rest of the website.</li>
+                                                      <li>Left column should be removed altogether.</li>
+                                                  </ol>
+                                                  <br>
+                                                  <img src="images/FAUAF/FAUAF_2021_event.png" style="width:100%">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_getinvolved">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                              Get Involved Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="old_getinvolved" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>Some pages have the type of header centered. This needs to be uniform.</li>
+                                                    <li>Text is too light - challenging to read.</li>
+                                                    <li>Donation process is straightforward and this unnecessary explanation might lead to user confusion. Layout is also awkward. Donate button is also inconsistent with other donate buttons on the page.</li>
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_get_involved.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-body" id="research-5">
+                                    <div class="slideshow-container" style="background-color: white;">
+
+                                        <div class="mySlides">
+                                        <img src="" style="width:100%">
+                                        </div>
+
+                                        <div style="text-align:center">
+                                        
+                                        <span class="dot" onclick="currentSlide(3)"></span> 
+                                        </div>
+                                    </div>
+                                    </div>
+                                </li>
+                            </ul>               
+                        </div>
+                </section>
+
+                <section id="definition" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">DEFINE<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="definition-1">
+                                    <h4 class="mt-0 mb-1">KEY USER INSIGHTS</h4>
+                                    <p class="subhead">Content Relevance</p>
+                                    <p>Users want a quick understanding of the organization’s mission and impact without having to read large blocks of text.</p>
+                                    <br>
+                                    <p class="subhead">User Value</p>
+                                    <p>Users need to feel that every donation, no matter the size, is valued and appreciated.</p>
+                                    <br>
+                                    <p class="subhead">Content & Design Integrity</p>
+                                    <p>Out-of-date content and inconsistent designs (buttons, fonts, etc.) leads potential donors to question the organization’s integrity.</p>
+                                </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-2">
+                                    <h4 class="mt-0 mb-1">STAKEHOLDER CONCERNS</h4>
+                                    <p>Advertise FAUAF’s impact without putting university students and employees at risk</p>
+                                    <br>
+                                    <p>Site needs to be easy to update in-house without requiring additional personnel</p>
+                                </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-3">
+                                            <h4 class="mt-0 mb-1">PROBLEM STATEMENT</h4>
+                                            <p> The current FAUAF website lacks easily-digestible messaging, up-to-date content, and design integrity. The FAUAF website is the organization’s primary source of information for potential new donors looking to learn about FAUAF. This is problematic for both the users and organization as the disorganized and verbose website does not best reflect the organization’s steadfast dedication to its mission and incredible impact on young Afghan men and women. </p>
+                                    </div>
+                                 </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-4">
+                                        <h4 class="mt-0 mb-1">USER PERSONA</h4>
+                                        <p></p>
+                                        </div>
+                                        <img src="images/FAUAF/User Persona.png" class="align-self-center mr-3 project-image" alt="elevate proto perso">
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+
+                <section id="ideate" style="padding-left:50px; padding-right:50px;">
+                        <h2 style="padding-top:40px;">IDEATE<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                            <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                        </svg> </span> </h2>
+                            <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                <ul class="list-unstyled">
+                                    <li class="media">
+                                        <div class="media-body" id="research-1">
+                                        <h4 class="mt-0 mb-1">SITE MAP</h4>
+                                    <img src="images/FAUAF/FAUAF_old_sitemap.png" class="align-self-center mr-3 project-image" alt="FAUAF original site map">
+                                    <img src="images/FAUAF/FAUAF_new_sitemap.png" class="align-self-center mr-3 project-image" alt="FAUAF original site map">
+                                        </div>
+                                    </li>
+                                    <li class="media">
+                                        <div class="media-body" id="ideate-2">
+                                        <h4 class="mt-0 mb-1">USER FLOW</h4>
+                                    </div>
+                                    </li>
+                                    <li class="media">
+                                        <div class="media-body" id="ideate-3">
+                                        <h4 class="mt-0 mb-1">SKETCHES</h4>
+                                    </li>
+                                </ul>                 
+                            </div>
+                </section>
+
+                <section id="prototype" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">PROTOTYPE <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="prototype-1">
+                                    <h4 class="mt-0 mb-1">WIREFRAMES</h4>
+                                    <div id="carouselExampleIndicators" class="carousel slide d-flex">
+                                        <div class="carousel-indicators ms-0 me-0">
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Home Page<svg style="height:20px; width: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">About Us<svg style="height:20px; width: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">News & Blog<svg style="height:20px; width: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3">News Post<svg style="height:20px; width: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4">Impact<svg style="height:20px; width: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg></button>
+                                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 5">Events<svg style="height:20px; width: 20px;" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="images/FAUAF/Home_page.png" class="d-block w-100" alt="new home page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/FAUAF/About Us_Page.png" class="d-block w-100" alt="new about us page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/FAUAF/News_One.png" class="d-block w-100" alt="new news page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/FAUAF/Newsexample.png" class="d-block w-100" alt="new example news article page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/FAUAF/Impact.png" class="d-block w-100" alt="new impact page">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/FAUAF/Events.png" class="d-block w-100" alt="new events page">
+                                            </div>
+                                        </div>
+                                      </div>
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+
+                <section id="test" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">TEST<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                    <p>Testing our high-fidelity wireframes with potential users provided helpful feedback on our navigation bar, homepage layout, and footer design.</p>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="test-1">
+                                    <h4 class="mt-0 mb-1">ITERATIONS</h4>
+                                    <p>Using this feedback, we changed our hero image, reorganized homepage content elements, and changed the vague “Explore” verbiage on the nav bar to the more clear “About Us.”
+                                    </p>
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+
+                <section id="conclusion" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">CONCLUSION<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="conclusion-1">
+                                    <h4 class="mt-0 mb-1">FINAL OUTPUT</h4>
+                                    <p>Integrating these iterations, we created the following desktop and mobile prototypes. These two prototypes are descended from the same group of components, so building the website in a genuinely responsive fashion will be significantly less costly since each element will only need to be engineered once and then can be pushed and pulled as the viewport demands.
+                                    </p>
+                                    </div>
+                                    <br>
+                                    <a class="inline_link" href="https://www.figma.com/proto/KL31fSAnjdaiWnjKRy0KvW/Elevate-Workspace?page-id=494%3A1098&type=design&node-id=494-3756&viewport=102%2C206%2C0.11&t=uov7WnePXsvDdtnc-1&scaling=scale-down&starting-point-node-id=494%3A3756&mode=design">Desktop Prototype</a>
+                                    <br>
+                                    <a class="inline_link" href="https://www.figma.com/proto/KL31fSAnjdaiWnjKRy0KvW/Elevate-Workspace?page-id=282%3A4470&type=design&node-id=702-2243&viewport=-2081%2C-6701%2C1.18&t=UP5azB2F9DFEUxgE-1&scaling=scale-down&starting-point-node-id=702%3A2243&mode=design">Mobile Prototype</a>
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="conclusion-1">
+                                    <h4 class="mt-0 mb-1">NEXT STEPS</h4>
+                                    <p>This effective redesign sprint resulted in good actionable deliverables for the stakeholders, provided after the project concluded. Potential next steps would include taking a more holistic view of the Elévate Guatemala web presence and designing a style-compliant series of templates for Lauren to post updates to the organization’s social media accounts. Adjacent to those templates would be a look at the current newsletter template used, adjusting it to match the prescribed style guide and creating better guidance on the voice that should be used and nurtured in these communications.
+                                    </p>
+                                    <p>Creating one cohesive brand image is the objective for these next steps. Deliverables for such a task would be exhaustive and reduce the burden on org senior staff with limited bandwidth for outreach.</p>
+                                    </div>
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+            </div> 
+        </main>
+
+       <!-- <main class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-centered main-content ms-1" style="padding: 0;">
+            <div  data-bs-spy="scroll" data-bs-target="#sidemenu" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">  
+               
+
+                <section id="research" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">RESEARCH <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="research-1">
+                                    <h4 class="mt-0 mb-1">WEBSITE ANNOTATIONS</h4>
+                                    <p>Armed with user and stakeholder insights, we analyzed the existing Elevate Guatemala website and identified specific areas for improvement. </p>
+                                    <br>
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_homepage">
+                                            <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              Home Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="old_homepage" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_home_page.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_head">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              Page Head
+                                            </div>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="old_head" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_header.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_footer">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Page Footer
+                                            </div>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="old_footer" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_footer.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_about_us">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                              About Us Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="old_about_us" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_about_us.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="old_news&blog">
+                                              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                News & Blog Page
+                                              </div>
+                                            </h2>
+                                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="old_news&blog" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                  <ol>
+                                                      <li>The video description text is difficult to read and awkardly placed. </li>
+                                                      <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                      <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                      
+                                                  </ol>
+                                                  <br>
+                                                  <img src="images/FAUAF/FAUAF_old_newsletter.png" style="width:100%">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_article">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                              News & Blog Article Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="old_article" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_article.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_events">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                              Events Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="old_events" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_home_page.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="old_2021event">
+                                              <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                Example Event Page
+                                              </div>
+                                            </h2>
+                                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="old_2021event" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                  <ol>
+                                                      <li>The video description text is difficult to read and awkardly placed. </li>
+                                                      <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                      <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                      
+                                                  </ol>
+                                                  <br>
+                                                  <img src="images/FAUAF/FAUAF_2021_event.png" style="width:100%">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="old_getinvolved">
+                                            <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                              Get Involved Page
+                                            </div>
+                                          </h2>
+                                          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="old_getinvolved" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ol>
+                                                    <li>The video description text is difficult to read and awkardly placed. </li>
+                                                    <li>Mission statement text block is too wide and should stand out more on the page.</li>
+                                                    <li>Awkward alignment of testimony cards. Perhaps the image </li>
+                                                    
+                                                </ol>
+                                                <br>
+                                                <img src="images/FAUAF/FAUAF_old_get_involved.png" style="width:100%">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </li>
+                            </ul>               
+                        </div>
+                </section>
+
+                <section id="definition" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">DEFINE<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="definition-1">
+                                    <h4 class="mt-0 mb-1">KEY USER INSIGHTS</h4>
+                                    <p class="subhead">Initial Impression and Design</p>
+                                    <p></p>
+                                    <br>
+                                    <p class="subhead">Navigation and Ease of Finding Information</p>
+                                    <p></p>
+                                    <br>
+                                    <p class="subhead">Engaging Features</p>
+                                    <p></p>
+                                </div>
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-2">
+                                        <h4 class="mt-0 mb-1">AFFINITY DIAGRAM</h4>
+                                        <p>We gathered all the facts/thoughts/and ideas gained from user interviews and organized them into actional sections: <strong>"Likes," "Needs & Goals,"</strong> and <strong>"Pain Points."</strong> <strong>"Likes"</strong> we would work to maintain on the redesigned site. <strong>"Needs & Goals"</strong> provided usable objectives, and <strong>"Pain Points"</strong> were issues that needed resolution.</p>
+                                    </div>
+                                        <img src="images/elevate_affinity_diagram.png" class="align-self-center mr-3 project-image" alt="elevate proto perso">
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-4">
+                                            <h4 class="mt-0 mb-1">PROBLEM STATEMENT</h4>
+                                            <p>How might we redesign Elévate’s website to present Program and Scholarship information in a clear, easily digestible format that empowers passionate individuals interested in supporting education in developing nations, ultimately increasing user engagement confidence and driving more donations to the organization?</p>
+                                    </div>
+                                 </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-5">
+                                        <h4 class="mt-0 mb-1">USER JOURNEY MAP</h4>
+                                        <p></p>
+                                        </div>
+                                        <img src="" class="align-self-center mr-3 project-image" alt="elevate proto perso">
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="definition-6">
+                                        <h4 class="mt-0 mb-1">USER PERSONA</h4>
+                                        <p>Gathering and defining these insights and viewing them through our problem statement allowed us to understand better who our user is, our User Persona.</p>
+                                    </div>
+                                    <img src="" class="align-self-center mr-3 project-image" alt="elevate proto perso">
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+
+                <section id="ideate" style="padding-left:50px; padding-right:50px;">
+                        <h2 style="padding-top:40px;">IDEATE <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                            <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                        </svg> </span> </h2>
+                            <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                <ul class="list-unstyled">
+                                    <li class="media">
+                                        <div class="media-body" id="ideate-1">
+                                        <h4 class="mt-0 mb-1">SKETCHES</h4>
+                                        <p class="subhead">Initial Impression and Design</p>
+                                        <p></p>
+                                        <br>
+                                        <p class="subhead">Navigation and Ease of Finding Information</p></p>
+                                        <br>
+                                        <p class="subhead">Engaging Features</p></p>
+                                    </div>
+                                    </li>
+                                </ul>                 
+                            </div>
+                </section>
+
+
+
+                <section id="test" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">TEST<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                    <p>Testing our high-fidelity wireframes with potential users provided helpful feedback on our navigation bar, homepage layout, and footer design.</p>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="test-1">
+                                    <h4 class="mt-0 mb-1">ITERATIONS</h4>
+                                    <p>Using this feedback, we changed our hero image, reorganized homepage content elements, and changed the vague “Explore” verbiage on the nav bar to the more clear “About Us.”
+                                    </p>
+                                    <img src="images/EG_home_iterations.png" class="align-self-center mr-3 project-image" alt="EG homepage iterations">
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+
+                <section id="conclusion" style="padding-left:50px; padding-right:50px;">
+                    <h2 style="padding-top:40px;">CONCLUSION<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                    </svg> </span> </h2>
+                        <div class="row"  style="--bs-gutter-y:1.5 rem">
+                            <ul class="list-unstyled">
+                                <li class="media">
+                                    <div class="media-body" id="conclusion-1">
+                                    <h4 class="mt-0 mb-1">FINAL OUTPUT</h4>
+                                    <p>Integrating these iterations, we created the following desktop and mobile prototypes. These two prototypes are descended from the same group of components, so building the website in a genuinely responsive fashion will be significantly less costly since each element will only need to be engineered once and then can be pushed and pulled as the viewport demands.
+                                    </p>
+                                    </div>
+                                    <br>
+                                    <a class="inline_link" href="">Desktop Prototype</a>
+                                
+                                </li>
+                                <li class="media">
+                                    <div class="media-body" id="conclusion-1">
+                                    <h4 class="mt-0 mb-1">NEXT STEPS</h4>
+                                    </div>
+                                </li>
+                            </ul>                 
+                        </div>
+                </section>
+            </div> 
+        </main>-->
+
+    </div>
+</div>
+ 
+
+<script src="https://rawgit.com/bassjobsen/affix/master/assets/js/affix.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

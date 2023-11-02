@@ -1,0 +1,722 @@
+
+body {
+    position: relative;
+}
+
+p {
+    color:black; 
+    margin: 2px 0px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 23px;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+
+.subhead {
+    color:black; 
+    margin: 2px 0px;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px; 
+}
+
+h2 {
+    color:black; 
+    margin: 0px 0px;
+    font-size: 45px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-style:italic;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 50px; 
+}
+
+h4 {
+    font-size: 34px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+
+h5 { 
+    margin:0px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h6 {
+    color: #FE5D26;
+    margin:0px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.inline_link {
+    color:black; 
+    margin: 2px 0px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+#elevate_jumbotron {
+    background: url('../images/elevate_header.png') no-repeat top;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 0 !important;
+	border-bottom: 3px solid #0E0E0E;
+}
+
+#fauaf_jumbotron {
+    background: url('../images/FAUAF/FAUAF_header.png') no-repeat top;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 0 !important;
+	border-bottom: 3px solid #0E0E0E;
+}
+
+body {
+    position: relativ e;
+    color: #0E0E0E;
+}
+
+* {box-sizing: border-box;}
+
+.container-fluid  {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    max-width: 1200px !important;
+    margin-top:0px !important;
+}
+
+.row{
+    --bs-gutter-x: 3rem !important;
+    --bs-gutter-y: 3rem !important;
+}
+
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #FE5D26;
+    clip-path: inset(0 -100vmax);
+}
+
+.inverse {
+    background-color: #FE5D26;
+}
+
+
+.topnav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav-items li {
+    margin: 0 10px;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 500px;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.dropdown-toggle::after {
+    margin-left: .5em !important;
+    vertical-align: 0.2em !important;
+}
+  
+.topnav a.split {
+    float: left;
+}
+.topnav a.split:hover {
+    background-color: #333;
+}
+button {
+    background-color: #FE5D26;
+    color: white;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: 0px;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.btn-dropdown {
+    color: black;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    text-decoration: none;
+    --bs-btn-hover-color: white;
+    --bs-btn-active-color: white;
+}
+
+.dropdown li a{
+    color: black;
+    text-align: start;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    text-decoration: none;
+}
+
+#nav-title a {
+    color: white;
+    margin:0px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.buttonstandard {
+    float: right;
+}
+
+
+
+.sptext {
+    margin-top:40px;
+    margin-bottom:0px;
+    font-weight:500;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #EDE38C;;
+    text-decoration-thickness: 4px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.flex-item-left {
+    flex: 1;
+    max-width: 30%;
+    margin-right: 70px;
+}
+
+.flex-item-right {
+    flex: 2;
+    margin-left:0px;
+    max-width: 70%;
+}
+  
+#skill1, #skill2, #skill3 {
+    width: 33.33%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout 
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+}*/
+
+.prof_pic {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+    background-color: #FFFEF9;
+    border-radius: 10px;
+    border: none;
+    padding-top: 5px;
+}
+.card-body {
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.card-title {
+    padding-top: 0px;
+    font-size: 28px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    margin: 6px 0px 6px 0px;
+    line-height: 18px;
+}
+.card-footer {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    padding-top:10px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.btn-primary {
+    background-color: #EDE38C;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    text-decoration: none;
+    --bs-btn-bg: #E0CD25;
+    --bs-btn-border-color: #E0CD25;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #E0CD25;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #E0CD25;
+}
+
+footer {
+    border-top: 3px solid black;
+    background-color:#EDE38C;
+}
+
+footer .row {
+    margin: 0px !important;
+}
+.footercontact h6{
+    text-align: left;
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+}
+.footercontact p{
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    margin: 6px 0px 6px 0px;
+    line-height: 18px;
+    color: black; 
+}
+.footertabs {
+    text-align: right;
+    text-decoration: none;
+    color:black;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 25px;
+    }
+}
+
+/* Project page */
+
+.row {
+
+}
+
+.nav-link {
+    color:#414141 !important; 
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    line-height: 5px;
+}
+
+.nav-link.active {
+    color:#FE5D26 !important;
+    background-color: transparent;
+    border-left: 2px #FE5D26 solid;
+}
+
+.nav-link:hover {
+    color:#FE5D26 !important;
+    background-color: transparent;
+}
+
+#sidemenu.affix-bottom {
+    position: relative;
+}
+  
+@media (min-width: 768px) {
+    #sidemenu.affix {
+    position: fixed;
+    top: 40px;
+    }
+}
+
+.media-body {
+    padding-top:20px;
+}
+
+/* only show subitems when parent is active*/
+#sidemenu .nav-item .nav-link.active+.nav .nav-item {
+    display: list-item;
+}
+
+/* Initially hide all subitem lists */
+.nav.flex-md-column.ml-2.hidden-sm-down {
+    display: none;
+}
+
+/* Display subitem list when the parent is active */
+.nav-link.active + ul.nav.flex-md-column.ml-2.hidden-sm-down {
+    display: block;
+}
+
+.project_head {
+    margin-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.subgroup-left-side {
+    padding-right:60px;
+}
+
+.subgroup-right-side p {
+    color:black;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 12px;
+}
+
+.project-image {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 20px;
+    border: .5px solid #D3D3D3;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+.wireframe-image {
+    max-width: 150px; 
+    height: auto;
+    margin-top: 20px;
+    border: .5px solid #D3D3D3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 3px;
+}
+
+.media {
+    margin-bottom: 50px;
+}
+
+#research.full-bleed {
+    box-shadow: 0 0 0 100vmax #FFFCE4;
+    clip-path: inset(0 -100vmax);
+}
+
+#research, #ideate, #test{
+    background-color: #FFFCE4;
+}
+
+.bullets {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+
+.bullets li {
+    padding-left:5px;
+    color:black; 
+    margin: 2px 0px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+    color:black; 
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: start; 
+    margin-bottom: 20px; 
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 100px;
+    user-select: none;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mySlides li{
+    color:black; 
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 10px 0px;
+    padding-left: 5px;
+}
+
+.mySlides ol {
+    padding: 0px 30px 20px 30px;
+    margin-left: 30px;
+}
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    margin-right:10px;
+    padding: 3px 12px 3px 12px;
+  }
+
+  .prev {
+    margin-left:10px;
+    padding: 3px 12px 3px 12px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /*Wireframe Gallery*/
+
+  #wireframe_gallery.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column{
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    overflow: hidden;
+    max-height: 1670px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+}
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/* Infographics Page */
+
+.infographic {
+    border: .5px solid #D3D3D3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px; 
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* FAUAF Page */
+
+.accordion li {
+    color:black; 
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 10px 0px;
+    padding-left: 5px;
+}
+
+.accordion{
+    --bs-accordion-active-bg: #C3E9EE;
+    --bs-accordion-btn-color: black;
+    --bs-accordion-active-color: black;
+}
+
+.carousel-indicators {
+    position: unset;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+.carousel-indicators button{
+    border-radius: 0;
+    border-top: 0px !important;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: 0;
+    text-align: left;
+    width: 200px;
+    height: 60%;
+    opacity: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-indicators [data-bs-target].active {
+    color: #FE5D26;
+}
+
+.carousel {
+    align-items: flex-start; /* Align items at the top */
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.carousel-inner img {
+    max-width: 700px !important;
+    height: auto !important;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.carousel-inner .carousel-item {
+    background-color: transparent; /* Set the background color of carousel items to transparent */
+}
