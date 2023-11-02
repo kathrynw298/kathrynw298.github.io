@@ -84,7 +84,7 @@ h6 {
 }
 
 #elevate_jumbotron {
-    background: url('../images/elevate_header.png') no-repeat top;
+    background: url('../images/Elevate/elevate_header.png') no-repeat top;
     background-size: cover;
     height: 500px;
     margin-bottom: 0 !important;
@@ -374,10 +374,6 @@ footer .row {
 }
 
 /* Project page */
-
-.row {
-
-}
 
 .nav-link {
     color:#414141 !important; 
@@ -719,4 +715,13 @@ a {
 
 .carousel-inner .carousel-item {
     background-color: transparent; /* Set the background color of carousel items to transparent */
+}
+
+/* Lingozilla */
+#lingozilla_jumbotron {
+    background: url('../images/Lingozilla/Lingozilla_Header.png') no-repeat top;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 0 !important;
+	border-bottom: 3px solid #0E0E0E;
 }
