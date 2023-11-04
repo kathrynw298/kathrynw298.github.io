@@ -1,5 +1,24 @@
 console.log("Your index.js file is loaded correctly!");
 
+
+$('#sidemenu').affix({
+  offset:{
+      top: $('#header').outerHeight() +30,
+      bottom: $('footer').outerHeight() + 130
+  }
+});
+
+// Activate scrollspy on your sidebar navigation
+const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#sidemenu', // ID of your sidebar element
+  offset: 100, // Offset from the top to trigger the change
+});
+
+AOS.init({
+  duration: 1200,
+})
+
+
 const button = document.querySelector('button');
 
 button.addEventListener('mouseover', () => {
@@ -36,22 +55,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-
-$('#sidemenu').affix({
-  offset:{
-      top: $('#header').outerHeight() +30,
-      bottom: $('footer').outerHeight() + 50
-  }
-});
-
-
-
-// Activate scrollspy on your sidebar navigation
-const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-  target: '#sidemenu', // ID of your sidebar element
-  offset: 100, // Offset from the top to trigger the change
-});
-
-AOS.init({
-  duration: 1200,
-})

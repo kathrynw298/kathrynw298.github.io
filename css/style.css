@@ -10,8 +10,7 @@ p {
     font-family: 'Karla', sans-serif;
     font-weight: 300;
     line-height: 23px;
-    padding-bottom: 5px;
-    padding-top:5px;
+    padding:0;
 }
 
 .subhead {
@@ -21,6 +20,7 @@ p {
     font-family: 'Karla', sans-serif;
     font-weight: 500;
     line-height: 40px; 
+    padding: 0;
 }
 
 h1 {
@@ -438,7 +438,7 @@ footer .row {
     font-size: 14px;
     font-family: 'Karla', sans-serif;
     font-weight: 300;
-    line-height: 12px;
+    line-height: 18px;
 }
 
 .project-image {
@@ -459,7 +459,7 @@ footer .row {
 }
 
 .media {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #research.full-bleed {
@@ -467,7 +467,7 @@ footer .row {
     clip-path: inset(0 -100vmax);
 }
 
-#research, #ideate, #test{
+#research, #ideate, #conclusion{
     background-color: #FFFCE4;
 }
 
@@ -645,7 +645,7 @@ a {
 
 /* FAUAF Page */
 
-.accordion li {
+.media-body li{
     color:black; 
     font-size: 14px;
     font-family: 'Karla', sans-serif;
@@ -724,4 +724,14 @@ a {
     height: 500px;
     margin-bottom: 0 !important;
 	border-bottom: 3px solid #0E0E0E;
+}
+
+.media-body ul li{
+    color:black; 
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 10px 0px;
+    padding-left: 5px;
 }
