@@ -200,6 +200,9 @@ button {
     --bs-btn-hover-color: white;
     --bs-btn-active-color: white;
 }
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #FE5D26;
+}
 
 .dropdown li a{
     color: black;
