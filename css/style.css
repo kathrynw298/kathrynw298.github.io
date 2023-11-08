@@ -54,13 +54,13 @@ h4 {
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
-    line-height: 34px;
+    line-height: 38px;
 }
 
 h5 { 
     margin:0px;
     font-family: 'Karla', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 24px;
 }
 
@@ -69,7 +69,7 @@ h6 {
     margin:0px;
     font-family: 'Fraunces', serif;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 80px;
 }
 
@@ -93,6 +93,14 @@ h6 {
 
 #fauaf_jumbotron {
     background: url('../images/FAUAF/FAUAF_header.png') no-repeat top;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 0 !important;
+	border-bottom: 3px solid #0E0E0E;
+}
+
+#nps_jumbotron {
+    background: url('../images/nps/nps_header.png') no-repeat top;
     background-size: cover;
     height: 500px;
     margin-bottom: 0 !important;
@@ -146,6 +154,14 @@ body {
     background-color: #FE5D26;
 }
 
+#projects.full-bleed {
+    box-shadow: 0 0 0 100vmax #EDE38C;
+    clip-path: inset(0 -100vmax);
+}
+
+#projects.inverse {
+    background-color: #EDE38C;
+}
 
 .topnav {
     background-color: #333;
@@ -291,6 +307,28 @@ button {
     border-radius: 10px;
   }
 
+.plus li {
+    list-style: none !important;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 26px !important;
+    color:black; 
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.plus li:before {
+    content: "+";
+    margin-right: 10px;
+    color: #FE5D26;
+    font-weight: 400;
+}
+
+
 #skill1, #skill2, #skill3 {
     width: 33.33%;
     padding-left: 20px;
@@ -336,8 +374,8 @@ button {
     padding-bottom: 24px;
 }
 .btn-primary {
-    background-color: #EDE38C;
-    color: black;
+    background-color: #FE5D26;
+    color: white;
     padding: 6px 12px;
     border-radius: 2px;
     border: 0px;
@@ -356,7 +394,7 @@ button {
 
 footer {
     border-top: 3px solid black;
-    background-color:#EDE38C;
+    background-color:#FFFEF9;
 }
 
 footer .row {
@@ -424,7 +462,7 @@ footer .row {
 }
 
 .media-body {
-    padding-top:20px;
+    margin-top:20px;
 }
 
 /* only show subitems when parent is active*/
