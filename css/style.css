@@ -15,12 +15,12 @@ p {
 
 .subhead {
     color:black; 
-    margin: 2px 0px;
-    font-size: 22px;
-    font-family: 'Karla', sans-serif;
-    font-weight: 500;
-    line-height: 40px; 
+    margin-top:16px;
+    line-height: 24px; 
     padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 h2 {
     color:black; 
     margin: 0px 0px;
-    font-size: 45px;
+    font-size: 48px;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
     font-style:italic;
@@ -49,7 +49,7 @@ h3 {
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
     margin-top: 10px;
@@ -62,6 +62,7 @@ h5 {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 24px;
+    line-height:34px;
 }
 
 h6 {
@@ -393,7 +394,12 @@ body {
 
 footer {
     border-top: 3px solid black;
-    background-color:#FFFEF9;
+    background-color:#EDE38C;
+}
+
+#mainfoot {
+    border-top: 3px solid black;
+    background-color:#FFFEF9 !important;
 }
 
 footer .row {
@@ -470,6 +476,8 @@ footer .row {
     margin-top:20px;
 }
 
+
+
 /* only show subitems when parent is active*/
 #sidemenu .nav-item .nav-link.active+.nav .nav-item {
     display: list-item;
@@ -505,10 +513,10 @@ footer .row {
 .project-image {
     max-width: 100%; 
     height: auto;
-    margin-top: 20px;
+    margin: 20px 0px !important;
     border: .5px solid #D3D3D3;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px;
 }
 
 .wireframe-image {
@@ -520,7 +528,7 @@ footer .row {
 }
 
 .media {
-    margin-bottom: 30px;
+    margin-bottom: 36px;
 }
 
 #research.full-bleed {
@@ -528,7 +536,7 @@ footer .row {
     clip-path: inset(0 -100vmax);
 }
 
-#research, #ideate, #conclusion{
+#research, #ideate, #egtest, #conclusion{
     background-color: #FFFCE4;
 }
 
