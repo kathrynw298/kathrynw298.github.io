@@ -13,7 +13,7 @@ p {
     padding:0;
 }
 
-.subhead {
+.subhead{
     color:black; 
     margin-top:16px;
     line-height: 24px; 
@@ -209,7 +209,8 @@ body {
 }
 
 .btn-deactive {
-    color: rgb(245, 243, 243);
+    color: rgb(243, 243, 243);
+    background-color: #dd4d1dc0;
     padding: 6px 12px;
     border-radius: 2px;
     border: 0px;
@@ -219,6 +220,10 @@ body {
     font-weight: 600px;
     text-decoration: none;
     --bs-btn-bg: #dd4d1dc0;
+    --bs-btn-hover-color: rgb(243, 243, 243);
+    --bs-btn-hover-bg: #dd4d1dc0;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: rgb(243, 243, 243);
 }
 
 .btn-dropdown {
@@ -263,8 +268,6 @@ body {
 .buttonstandard {
     float: right;
 }
-
-
 
 .sptext {
     margin-top:40px;
@@ -384,7 +387,6 @@ body {
     font-weight: 600px;
     text-decoration: none;
     --bs-btn-bg: #FE5D26;
-    --bs-btn-border-color: #E0CD25;
     --bs-btn-hover-color: white;
     --bs-btn-hover-bg: #d5491a;
     --bs-btn-active-color: white;
@@ -411,13 +413,12 @@ footer .row {
     font-family: 'Fraunces', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 32px;
 }
 .footercontact p{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Karla', sans-serif;
     font-weight: 300;
-    margin: 6px 0px 6px 0px;
     line-height: 18px;
     color: black; 
 }
@@ -429,8 +430,12 @@ footer .row {
 
 .footertabs a{
     color:black !important;
-    line-height: 26px;
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
+    line-height: 18px;
+    font-size:20px;
+    font-style: italic;
+
 }
 
 @media screen and (max-width: 768px) {
