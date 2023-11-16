@@ -22,29 +22,33 @@
 </head>
 
 <body>
-<div class="topnav">
-  <div class="nav-left" id="nav-title"><a href="index.html" class="split">Kathryn Williams</a></div>
-  <div class="nav-right">
-    <ul class="topnav-items">
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="aboutme.html">ABOUT ME</a></li>
-      <li class="dropdown">
-        <a class="btn btn-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          PROJECTS
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="fauaf.html">Friends of AUAF</a></li>
-          <li><a class="dropdown-item" href="lingozilla.html">Lingozilla</a></li>
-          <li><a class="dropdown-item" href="elevate.html">Elevate Guatemala</a></li>
-          <!--<li><a class="dropdown-item" href="nps.html">National Parks Service</a></li>-->
-          <li><a class="dropdown-item" href="infographics.html">Infographics</a></li>
-          <li><a class="dropdown-item" href="impactreport.html">Impact Report</a></li>
-        </ul>
-      </li>
-      <li><a class="btn btn-primary"  href="Kathryn_Williams_Resume.pdf" target="_blank">RESUME</a></li>
-    </ul>
-  </div>
-</div>
+
+  <section id="header">
+    <nav class="navbar navbar-expand-md fixed-top" style="padding:0px 26px;">
+        <a href="index.html" class="nav-title"">Kathryn Williams</a>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler collapsed flex-column justify-content-around" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="m-nav-item"><a href="index.html" class="m-nav-link">HOME</a></li>
+                <li class="m-nav-item"><a href="aboutme.html" class="m-nav-link">ABOUT ME</a></li>
+                <li class="m-nav-item dropdown"><a href="" class="m-nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PROJECTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                        <li><a class="dropdown-item" href="fauaf.html">Friends of AUAF</a></li>
+                        <li><a class="dropdown-item" href="lingozilla.html">Lingozilla</a></li>
+                        <li><a class="dropdown-item" href="elevate.html">Elevate Guatemala</a></li>
+                        <li><a class="dropdown-item" href="infographics.html">Infographics</a></li>
+                        <li><a class="dropdown-item" href="impactreport.html">Impact Report</a></li>
+                      </ul>
+                </li>
+                <li style="padding-top:10px; padding-bottom: 10px;"><a class="btn btn-primary" href="Kathryn_Williams_Resume.pdf" target="_blank" id="resume-button">RESUME</a></li>
+            </ul>
+        </div>
+    </nav>
+  </section>
 
 <!--
 <div id=header class="container-fluid text-left" style="padding-top: 130px; padding-bottom: 130px;">
