@@ -72,7 +72,7 @@ h6 {
     font-family: 'Fraunces', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .inline_link {
@@ -207,13 +207,13 @@ nav {
 }
 
 a.m-nav-link{
-    float: left;
+    float: right;
     color: white;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     font-weight: 500px;
     text-decoration: none;
-    padding: 6px 24px 6px 0px;
+    padding: 6px 32px 6px 0px;
 }
 
 .dropdown-menu {
