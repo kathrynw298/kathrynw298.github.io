@@ -3,10 +3,11 @@ console.log("Your index.js file is loaded correctly!");
 
 $('#sidemenu').affix({
   offset:{
-      top: $('#header').outerHeight() +30,
+      top: $('#header').outerHeight() +20,
       bottom: $('footer').outerHeight() + 130
   }
 });
+
 
 // Activate scrollspy on your sidebar navigation
 const scrollSpy = new bootstrap.ScrollSpy(document.body, {
@@ -14,10 +15,19 @@ const scrollSpy = new bootstrap.ScrollSpy(document.body, {
   offset: 100, // Offset from the top to trigger the change
 });
 
+
 AOS.init({
   duration: 1200,
 })
 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
 const button = document.querySelector('button');
 
