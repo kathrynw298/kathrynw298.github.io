@@ -3,6 +3,9 @@ body {
     position: relative;
 }
 
+.main-content {
+    margin-left: 20px;
+}
 
 p {
     color:black; 
@@ -67,12 +70,12 @@ h5 {
 }
 
 h6 {
-    color: #FE5D26;
-    margin:0px;
     font-family: 'Fraunces', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 70px;
+    font-size: 32px;
+    color: #FE5D26;
+    margin:0px;
 }
 
 .inline_link {
@@ -83,6 +86,17 @@ h6 {
     font-weight: 300;
     line-height: 25px;
     text-decoration: underline;
+}
+
+
+
+#lingozilla_jumbotron {
+    background: url('../images/Lingozilla/Lingozilla_Header.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0 !important;
+	border-bottom: 3px solid #0E0E0E;
+    height: 100%;
 }
 
 #elevate_jumbotron {
@@ -122,21 +136,12 @@ body {
 .container-xl,
 .container-lg,
 .container-md,
-.container-sm {
+.container-sm,
+.container-xs {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  max-width: 1200px !important;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 100px;
+  padding-top: 100px ;
   padding-bottom: 80px;
-}
-
-.row{
-    --bs-gutter-x: 3rem !important;
-    --bs-gutter-y: 3rem !important;
 }
 
 
@@ -241,8 +246,6 @@ a.m-nav-link{
     margin-top:11px;
 }
 
-
-
 .navbar-toggler {
     margin-top:7px;
     width: 20px;
@@ -264,7 +267,9 @@ a.m-nav-link{
     margin: 0;
     padding: 0;
 }
-
+a.m-nav-link{
+    float:left;
+}
 .toggler-icon {
     display: block;
     position: absolute;
@@ -326,12 +331,35 @@ a.m-nav-link{
     .btn-primary {
         margin-bottom:15px;
     }
+    .main-content {
+        margin-left: 0px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .navbar-nav {
         display: flex;
         align-items:center;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .project_section {
+        padding-left:30px;
+        padding-right:30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project_section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
@@ -389,7 +417,6 @@ a.m-nav-link{
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -493,9 +520,6 @@ a.m-nav-link{
     background-color:#EDE38C;
 }
 
-footer .row {
-    margin: 0px !important;
-}
 .footercontact h6{
     text-align: left;
     color: black;
@@ -510,6 +534,7 @@ footer .row {
     font-weight: 300;
     line-height: 18px;
     color: black; 
+    text-align: left;
 }
 .footertabs{
     text-align: right;
@@ -517,24 +542,32 @@ footer .row {
     color:black;
 }
 
-.footertabs a{
+.footertabs-lg p{
     color:black !important;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     line-height: 18px;
     font-size:20px;
     font-style: italic;
-
+    text-align: right;
 }
 
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 25px;
-    }
+.footertabs-sm a{
+    color:black !important;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size:20px;
+    font-style: italic;
+    text-align: left;
 }
 
-/* Project page */
+.vertical-line {
+    border-right: 2px solid black;
+    height:30px;
+    position: absolute;
+    left: 50%;
+}
 
 .nav-link {
     color:#414141 !important; 
@@ -591,11 +624,7 @@ footer .row {
 
 .project_head {
     margin-bottom: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.subgroup-left-side {
-    padding-right:60px;
+
 }
 
 .subgroup-right-side p {
@@ -760,9 +789,8 @@ a {
     padding: 10px 20px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /* Create four equal columns that sits next to each other 
   .column{
-    -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -775,25 +803,25 @@ a {
     vertical-align: middle;
     width: 100%;
     object-fit: cover;
-}
+} */
   
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a two column-layout instead of four columns
   @media screen and (max-width: 800px) {
     .column {
       -ms-flex: 50%;
       flex: 50%;
       max-width: 50%;
     }
-  }
+  } 
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  Responsive layout - makes the two columns stack on top of each other instead of next to each other
   @media screen and (max-width: 600px) {
     .column {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
     }
-  }
+  } */
 
 /* Infographics Page */
 
@@ -887,13 +915,6 @@ a {
 }
 
 /* Lingozilla */
-#lingozilla_jumbotron {
-    background: url('../images/Lingozilla/Lingozilla_Header.png') no-repeat top;
-    background-size: cover;
-    height: 500px;
-    margin-bottom: 0 !important;
-	border-bottom: 3px solid #0E0E0E;
-}
 
 .media-body ul li{
     color:black; 

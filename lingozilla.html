@@ -5,9 +5,10 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
      <!--Karla Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,408 +51,398 @@
             </ul>
         </div>
     </nav>
-    <div id="lingozilla_jumbotron"></div>
+    <img src="images/Lingozilla/Lingozilla_Header.png" class="img-fluid" alt="..." style="border-bottom: 3px solid #0E0E0E;">
 </section>
     
 <div class="container-fluid">
-    <div class="row">
-        <aside class="col-lg-3 col-md-3 d-none d-md-block" style="padding:0px !important;">
-            <div class="mt-3 mb-3 ms-3 me-1" id="sidemenu">
-                <ul class="nav flex-md-column flex-row justify-content-between">
-                    <li class="nav-item"><a href="#overview" class="nav-link active pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">OVERVIEW</a></li>
-                    <li class="nav-item"><a href="#research" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">RESEARCH</a>
-                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
-                            <li class="nav-item ms-3 my-1"><a href="#research-1" class="nav-link">Proto-Persona</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#research-2" class="nav-link">User Interviews</a></li>
+    <div class="row aos-init aos-animate justify-content-center" id="lingozilla-content" data-aos="fade-up" data-aos-duration="600">
+        <div class="col-lg-11 col-md-12 col-sm-12 col-12 col-centered">
+            <div class=" row justify-content-center">
+                <aside class="col-lg-3 col-md-3 d-none d-md-block" style="padding:0px">
+                    <div class="mt-3 mb-3 me-1" id="sidemenu">
+                        <ul class="nav flex-md-column flex-row justify-content-between">
+                            <li class="nav-item"><a href="#overview" class="nav-link active pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">OVERVIEW</a></li>
+                            <li class="nav-item"><a href="#research" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">RESEARCH</a>
+                                <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                                    <li class="nav-item ms-3 my-1"><a href="#research-1" class="nav-link">Proto-Persona</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#research-2" class="nav-link">User Interviews</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#definition" class="nav-link pl-0" style="font-size: 18px; font-weight: 400;  margin-bottom: 7px; margin-top: 10px;">DEFINE</a>
+                                <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-1" class="nav-link">Key User Insights</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-2" class="nav-link">Affinity Diagram</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-3" class="nav-link">Survey</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-4" class="nav-link">User Persona</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-5" class="nav-link">Problem Statement</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-6" class="nav-link">Value Proposition</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-7" class="nav-link">Competitor Analysis</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#definition-8" class="nav-link">UI Heuristics</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#ideate" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">IDEATE</a>
+                                <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-1" class="nav-link">I Like, I Wish, What If</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-2" class="nav-link">Feature Prioritization</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-3" class="nav-link">Storyboard</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-4" class="nav-link">Mood Board</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-5" class="nav-link">UI Style Guide</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-6" class="nav-link">Screen Sketches</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#ideate-7" class="nav-link">User FLow</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#prototype" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">PROTOTYPE & TESTING</a>
+                                <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                                    <li class="nav-item ms-3 my-1"><a href="#prototype-1" class="nav-link">Wireframes</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#prototype-2" class="nav-link">Lo-Fi Prototype</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#prototype-3" class="nav-link">Usability Testing</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#conclusion" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">FINAL OUTPUT</a>
+                                <ul class="nav flex-md-column ml-2 hidden-sm-down">
+                                    <li class="nav-item ms-3 my-1"><a href="#conclusion-1" class="nav-link">WatchOS & iOS Prototypes</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#conclusion-2" class="nav-link">Product Page</a></li>
+                                    <li class="nav-item ms-3 my-1"><a href="#conclusion-2" class="nav-link">Next Steps</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#nextsteps" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">NEXT STEPS</a>
+                            </li>
                         </ul>
-                    </li>
-                    <li class="nav-item"><a href="#definition" class="nav-link pl-0" style="font-size: 18px; font-weight: 400;  margin-bottom: 7px; margin-top: 10px;">DEFINE</a>
-                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
-                            <li class="nav-item ms-3 my-1"><a href="#definition-1" class="nav-link">Key User Insights</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-2" class="nav-link">Affinity Diagram</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-3" class="nav-link">Survey</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-4" class="nav-link">User Persona</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-5" class="nav-link">Problem Statement</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-6" class="nav-link">Value Proposition</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-7" class="nav-link">Competitor Analysis</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#definition-8" class="nav-link">UI Heuristics</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="#ideate" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">IDEATE</a>
-                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-1" class="nav-link">I Like, I Wish, What If</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-2" class="nav-link">Feature Prioritization</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-3" class="nav-link">Storyboard</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-4" class="nav-link">Mood Board</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-5" class="nav-link">UI Style Guide</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-6" class="nav-link">Screen Sketches</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#ideate-7" class="nav-link">User FLow</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="#prototype" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">PROTOTYPE & TESTING</a>
-                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
-                            <li class="nav-item ms-3 my-1"><a href="#prototype-1" class="nav-link">Wireframes</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#prototype-2" class="nav-link">Lo-Fi Prototype</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#prototype-3" class="nav-link">Usability Testing</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="#conclusion" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">FINAL OUTPUT</a>
-                        <ul class="nav flex-md-column ml-2 hidden-sm-down">
-                            <li class="nav-item ms-3 my-1"><a href="#conclusion-1" class="nav-link">WatchOS & iOS Prototypes</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#conclusion-2" class="nav-link">Product Page</a></li>
-                            <li class="nav-item ms-3 my-1"><a href="#conclusion-2" class="nav-link">Next Steps</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="#nextsteps" class="nav-link pl-0" style="font-size: 18px; font-weight: 400; margin-bottom: 7px; margin-top: 10px;">NEXT STEPS</a>
-                    </li>
-                </ul>
-            </div>
-        </aside> 
-            
-
-        <main class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-centered main-content ms-1" style="padding: 0;">
-            <div  data-bs-spy="scroll" data-bs-target="#sidemenu" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">  
-                <section id="overview" class="project_head">
-                    <h1>LINGOZILLA</h1>
-                    <h5 style="max-width: 620px;">Turn your spare moments into language mastery with Lingozilla, the language-learning Apple Watch app and your daily companion on your path to fluency.</p>
-                    <br>
-                        <div class="row">
-                            <div class="subgroup-left-side col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                
-                                <h4>THE PROBLEM</h4>
-                                <p>Learning a new language requires committed and consistent practice. However, few of us have time for the sit-down sessions this kind of learning often requires and need a convenient tool that seamlessly fits into their busy lives and enhances their language-learning journey.</p>
-                                <br>
-                                <h4>THE SOLUTION</h4>
-                                <p>Easily accessible, wearable language learning app that minimizes distractions and provides quick, on-the-go practice.</p>
+                    </div>
+                </aside> 
+                
+                <main class="col-lg-8 col-md-8 col-sm-12 col-12 col-centered main-content pe-0 ps-0">
+                    <div  data-bs-spy="scroll" data-bs-target="#sidemenu" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0"> 
+                        <section id="overview" class="project_section">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-11 col-sm-12 col-12 align-items-start">
+                                    <h1>LINGOZILLA</h1>
+                                    <h5>Turn your spare moments into language mastery with Lingozilla, the language-learning Apple Watch app and your daily companion on your path to fluency.</h5>
+                                    <br>
+                                    <div class="subgroup-left-side">
+                                    <h4>THE PROBLEM</h4>
+                                    <p>Learning a new language requires committed and consistent practice. However, few of us have time for the sit-down sessions this kind of learning often requires and need a convenient tool that seamlessly fits into their busy lives and enhances their language-learning journey.</p>
+                                    <br>
+                                    <h4>THE SOLUTION</h4>
+                                    <p>Easily accessible, wearable language learning app that minimizes distractions and provides quick, on-the-go practice.</p>
+                                    </div>
+                                </div>
                             </div>
-                           
-                            <div class="subgroup-right-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <div>
-                                    <h5 class="subhead" style="padding-top:10px">MY ROLE</h5>
+                            <div class="row">
+                                <div class="subgroup-right-side col-lg-3 col-md-4 col-sm-4 col-4">
+                                    <h5 class="subhead" style="padding-top:10px; padding-bottom:5px;">MY ROLE</h5>
                                     <p>UX Researcher</p>
                                     <p>UX/UI Designer</p>
                                 </div>
-                                <div>
-                                    <h5 class="subhead" style="padding-top:10px">TEAM</h5>
+                                <div class="subgroup-right-side col-lg-3 col-md-4 col-sm-4 col-4">
+                                    <h5 class="subhead" style="padding-top:10px; padding-bottom:5px;">TEAM</h5>
                                     <p>Myself</p>
                                     <p>Darius Appiah</p>
                                     <p>Jin Chung</p>
                                     <p>Erik Domnizky</p>
                                     <p>Stephanie Lehnoff</p>
                                 </div>
-                                <div>
-                                    <h5 class="subhead" style="padding-top:10px">TOOLS</h5>
+                                <div class="subgroup-right-side col-lg-3 col-md-4 col-sm-4 col-4">
+                                    <h5 class="subhead" style="padding-top:10px; padding-bottom:5px;">TOOLS</h5>
                                     <p>Figma</p>
                                     <p>Trello</p>
                                     <p>Canva</p>
-                                    <p>Google Fonts</p>
+                                     <p>Google Fonts</p>
                                 </div>
                             </div>
-                        </div>
-                </section>
+                        </section>
 
-                <section id="research" style="padding-left:50px; padding-right:50px;">
-                    <h2 style="padding-top:40px;">RESEARCH <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
-                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
-                    </svg> </span> </h2>
-                        <div class="row"  style="--bs-gutter-y:1.5 rem">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                <div class="media-body" id="research-1">
-                                    <h4 class="mt-0 mb-1">PROTO-PERSONA</h4>
-                                    <p>We started by building an ideal user - someone who would benefit from a language learning wrist application. This persona guided our interview questions where we sought to prove or disprove our assumptions. </p>
+                        <section id="research" class="project_section">
+                            <h2 style="padding-top:40px;">RESEARCH <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                                <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                            </svg> </span> </h2>
+                                <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                    <ul class="list-unstyled">
+                                        <li class="media">
+                                        <div class="media-body" id="research-1">
+                                            <h4 class="mt-0 mb-1">PROTO-PERSONA</h4>
+                                            <p>We started by building an ideal user - someone who would benefit from a language learning wrist application. This persona guided our interview questions where we sought to prove or disprove our assumptions. </p>
+                                        </div>
+                                        <img src="images/Lingozilla/Lingo_protopersona.png" class="align-self-center mr-3 project-image" alt="Lingozilla proto perso">
+                                        <li class="media">
+                                            <div class="media-body" id="research-2">
+                                            <h4 class="mt-0 mb-1">USER INTERVIEWS</h4>
+                                            <p>We held five user interviews during which we inquired about individuals’ experiences with language apps and their potential interest in using such an app on a wearable device, like an Apple Watch.
+                                            </p>
+                                            <p>We found that users were, more often than expected, without their phones, easily distracted by other applications, and preferred short, quick, on-the-go language sessions.
+                                            </p>
+                                            </div>
+                                        </li>
+                                    </ul>               
                                 </div>
-                                <img src="images/Lingozilla/Lingo_protopersona.png" class="align-self-center mr-3 project-image" alt="Lingozilla proto perso">
-                                <li class="media">
-                                    <div class="media-body" id="research-2">
-                                    <h4 class="mt-0 mb-1">USER INTERVIEWS</h4>
-                                    <p>We held five user interviews during which we inquired about individuals’ experiences with language apps and their potential interest in using such an app on a wearable device, like an Apple Watch.
-                                    </p>
-                                    <p>We found that users were, more often than expected, without their phones, easily distracted by other applications, and preferred short, quick, on-the-go language sessions.
-                                    </p>
-                                    </div>
-                                </li>
-                            </ul>               
-                        </div>
-                </section>
+                        </section>
 
-                <section id="definition" style="padding-left:50px; padding-right:50px;">
-                    <h2 style="padding-top:40px;">DEFINE<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
-                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
-                    </svg> </span> </h2>
-                        <div class="row"  style="--bs-gutter-y:1.5 rem">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                    <div class="media-body" id="definition-1">
-                                    <h4 class="mt-0 mb-1">KEY USER INSIGHTS</h4>
-                                    <ul>
-                                        <li>Users want a practicing solution that fits their schedules.</li>
-                                        <li>Conversation and immersion are integral to their learning process.</li>
-                                        <li>Practicing language skills should be fun and engaging.</li>
-                                    </ul>
+                        <section id="definition" class="project_section">
+                            <h2 style="padding-top:40px;">DEFINE<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                                <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                            </svg> </span> </h2>
+                                <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                    <ul class="list-unstyled">
+                                        <li class="media">
+                                            <div class="media-body" id="definition-1">
+                                            <h4 class="mt-0 mb-1">KEY USER INSIGHTS</h4>
+                                            <ul>
+                                                <li>Users want a practicing solution that fits their schedules.</li>
+                                                <li>Conversation and immersion are integral to their learning process.</li>
+                                                <li>Practicing language skills should be fun and engaging.</li>
+                                            </ul>
+                                        </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-2">
+                                                <h4 class="mt-0 mb-1">AFFINITY DIAGRAM</h4>
+                                                <p>We gathered all the facts/thoughts/and ideas gained from user interviews and organized them into actional sections: <strong>"Likes," "Needs & Goals,"</strong> and <strong>"Pain Points."</strong> <strong>"Likes"</strong> we would work to maintain on the redesigned site. <strong>"Needs & Goals"</strong> provided usable objectives. <strong>"Pain Points"</strong> were issues that needed resolution.</p>
+                                            </div>
+                                                <img src="images/Lingozilla/Affinity Diagram.png" class="align-self-center mr-3 project-image" alt="Lingozilla affinity diagram">
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-3">
+                                                <h4 class="mt-0 mb-1">SURVEY</h4>
+                                                <p>To help build our understanding of the market, we conducted a simple survey using Google Forms. We found that there is a strong preference for learning a language for future travel.
+                                                </p>
+                                                </div>
+                                                <img src="images/Lingozilla/survey.png" class="align-self-center mr-3 project-image" alt="Lingozilla survey response pie charts">
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-4">
+                                                <h4 class="mt-0 mb-1">USER PERSONA</h4>
+                                                <p>Gathering and defining these insights and viewing them through our problem statement allowed us to understand better who our user is, our User Persona.</p>
+                                            </div>
+                                            <img src="images/Lingozilla/User_Persona.png" class="align-self-center mr-3 project-image" alt="Lingozilla user persona">
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-5">
+                                                    <h4 class="mt-0 mb-1">PROBLEM STATEMENT</h4>
+                                                    <p>Lingozilla, the language learning app on the go, is grappling with the challenge of engaging users and ensuring they stay committed to improving their language skills.</p>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-6">
+                                                    <h4 class="mt-0 mb-1">VALUE PROPOSITION</h4>
+                                                    <p>With one tap, immerse yourself in interactive lessons, quizzes, and pronunciation guides. Lingozilla offers a seamless learning experience and personalized progress tracking for your favorite language.</p>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-7">
+                                                <h4 class="mt-0 mb-1">COMPETITOR ANALYSIS</h4>
+                                                <p>For our competitive analysis, we reviewed two language apps, Duolingo and Babbel, and one learning app, Quizlet. We looked into these apps' delivery of learning material, interaction design, gamification strategy, and more.</p>
+                                                </div>
+                                                <img src="images/Lingozilla/Competitor Analysis.png" class="align-self-center mr-3 project-image" alt="Lingozilla competitor analysis">
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="definition-8">
+                                                <h4 class="mt-0 mb-1">UI HEURISTICS</h4>
+                                                <p>We worked to find a competing application that we could measure against. LingoTime is a language learning application that also works on your smartwatch. We annotated some things we liked and could take inspiration from during the ideation phase. However, there were issues with the application that we noted, including small, difficult-to-read text, small buttons, touch targets, and a lack of any real knowledge check.
+                                                </p>
+                                                <img src="images/Lingozilla/UI Heuristics.png" class="align-self-center mr-3 project-image" alt="Lingozilla UI Heuristics analysis" style="margin-bottom:20px;">
+                                                <ol>
+                                                    <li>Streak tracking keeps users engaged on a daily basis</li>
+                                                    <li>User can search for a word and app returns common phrases that use the word</li>
+                                                    <li>Variety of lesson types</li>
+                                                    <li>Use of color to represent different lessons</li>
+                                                    <li>Text is very small and hard to read on a watch screen</li>
+                                                    <li>Buttons are very small and feel out of place/poorly aligned on the screen. Clicking the "X" or "check mark" buttons do the same thing as swiping left or right. Multiple options for completing the same action can lead to user confusion.</li>
+                                                    <li>Character animation is confusing. No real knowledge check- the user just swipes left or right if they know the character or not.</li>
+                                                </ol>
+                                            </div>
+                                        </li>
+                                    </ul>                 
                                 </div>
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-2">
-                                        <h4 class="mt-0 mb-1">AFFINITY DIAGRAM</h4>
-                                        <p>We gathered all the facts/thoughts/and ideas gained from user interviews and organized them into actional sections: <strong>"Likes," "Needs & Goals,"</strong> and <strong>"Pain Points."</strong> <strong>"Likes"</strong> we would work to maintain on the redesigned site. <strong>"Needs & Goals"</strong> provided usable objectives. <strong>"Pain Points"</strong> were issues that needed resolution.</p>
-                                    </div>
-                                        <img src="images/Lingozilla/Affinity Diagram.png" class="align-self-center mr-3 project-image" alt="Lingozilla affinity diagram">
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-3">
-                                        <h4 class="mt-0 mb-1">SURVEY</h4>
-                                        <p>To help build our understanding of the market, we conducted a simple survey using Google Forms. We found that there is a strong preference for learning a language for future travel.
-                                        </p>
-                                        </div>
-                                        <img src="images/Lingozilla/survey.png" class="align-self-center mr-3 project-image" alt="Lingozilla survey response pie charts">
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-4">
-                                        <h4 class="mt-0 mb-1">USER PERSONA</h4>
-                                        <p>Gathering and defining these insights and viewing them through our problem statement allowed us to understand better who our user is, our User Persona.</p>
-                                    </div>
-                                    <img src="images/Lingozilla/User_Persona.png" class="align-self-center mr-3 project-image" alt="Lingozilla user persona">
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-5">
-                                            <h4 class="mt-0 mb-1">PROBLEM STATEMENT</h4>
-                                            <p>Lingozilla, the language learning app on the go, is grappling with the challenge of engaging users and ensuring they stay committed to improving their language skills.</p>
-                                    </div>
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-6">
-                                            <h4 class="mt-0 mb-1">VALUE PROPOSITION</h4>
-                                            <p>With one tap, immerse yourself in interactive lessons, quizzes, and pronunciation guides. Lingozilla offers a seamless learning experience and personalized progress tracking for your favorite language.</p>
-                                    </div>
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-7">
-                                        <h4 class="mt-0 mb-1">COMPETITOR ANALYSIS</h4>
-                                        <p>For our competitive analysis, we reviewed two language apps, Duolingo and Babbel, and one learning app, Quizlet. We looked into these apps' delivery of learning material, interaction design, gamification strategy, and more.</p>
-                                        </div>
-                                        <img src="images/Lingozilla/Competitor Analysis.png" class="align-self-center mr-3 project-image" alt="Lingozilla competitor analysis">
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="definition-8">
-                                        <h4 class="mt-0 mb-1">UI HEURISTICS</h4>
-                                        <p>We worked to find a competing application that we could measure against. LingoTime is a language learning application that also works on your smartwatch. We annotated some things we liked and could take inspiration from during the ideation phase. However, there were issues with the application that we noted, including small, difficult-to-read text, small buttons, touch targets, and a lack of any real knowledge check.
-                                        </p>
-                                        <img src="images/Lingozilla/UI Heuristics.png" class="align-self-center mr-3 project-image" alt="Lingozilla UI Heuristics analysis" style="margin-bottom:20px;">
-                                        <ol>
-                                            <li>Streak tracking keeps users engaged on a daily basis</li>
-                                            <li>User can search for a word and app returns common phrases that use the word</li>
-                                            <li>Variety of lesson types</li>
-                                            <li>Use of color to represent different lessons</li>
-                                            <li>Text is very small and hard to read on a watch screen</li>
-                                            <li>Buttons are very small and feel out of place/poorly aligned on the screen. Clicking the "X" or "check mark" buttons do the same thing as swiping left or right. Multiple options for completing the same action can lead to user confusion.</li>
-                                            <li>Character animation is confusing. No real knowledge check- the user just swipes left or right if they know the character or not.</li>
-                                        </ol>
-                                    </div>
-                                </li>
-                            </ul>                 
-                        </div>
-                </section>
+                        </section>
 
-                <section id="ideate" style="padding-left:50px; padding-right:50px;">
-                        <h2 style="padding-top:40px;">IDEATE <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
-                            <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
-                        </svg> </span> </h2>
-                            <div class="row"  style="--bs-gutter-y:1.5 rem">
-                                <ul class="list-unstyled">
-                                    <li class="media">
-                                        <div class="media-body" id="ideate-1">
-                                           <h4 class="mt-0 mb-1">I LIKE, I WISH, WHAT IF</h4>
-                                           <p>In the ideation phase, we started brainstorming potential features and functions of our app, beginning with an "I Like, I Wish, What If" diagram. On each card is a feature that we or our research subjects appreciated when learning a language as well as anything that enhances or might enhance the learning process. </p>
-                                       </div>
-                                           <img src="images/Lingozilla/I Like, I Wish, What If_.png" class="align-self-center mr-3 project-image" alt="Lingozilla I like, I wish, what if">
-                                    </li>
-                                    <li class="media">
-                                        <div class="media-body" id="ideate-2">
-                                            <h4 class="mt-0 mb-1">FEATURE PRIORITIZATION</h4>
-                                            <p>Next, we used the MoSCoW Method to prioritize our ideas/features based on user needs and feasibility of implementation.</p>
-                                        </div>
-                                            <img src="images/Lingozilla/Frame 49.png" class="align-self-center mr-3 project-image" alt="Lingozilla MoSCoW method">
-                                    </li>
-                                    <li class="media">
-                                         <div class="media-body" id="ideate-3">
-                                            <h4 class="mt-0 mb-1">STORYBOARD</h4>
-                                            <p>We created a storyboard detailing a hypothetical target user’s learning frustrations, discovery of Lingozilla, use of the app, and finally, learning success thanks to Lingozilla.</p>
-                                        </div>
-                                            <img src="images/Lingozilla/Storyboard (1).png" class="align-self-center mr-3 project-image" alt="Lingozilla storyboard" >
-                                    </li>
-                                    <li class="media">
-                                        <div class="media-body" id="ideate-4">
-                                           <h4 class="mt-0 mb-1">MOOD BOARD</h4>
-                                           <p>When creating the mood board, we examined and documented how other Apple Watch apps implemented features like writing, speech, card flips, and progress tracking. We also added styling inspiration. This step helped us better understand Apple Watch design standards and best practices before actually designing Lingozilla.</p>
-                                       </div>
-                                           <img src="images/Lingozilla/Moodboard.png" class="align-self-center mr-3 project-image" alt="Lingozilla mood board">
-                                    </li>
-                                    <li class="media">
-                                        <div class="media-body" id="ideate-5">
-                                            <h4 class="mt-0 mb-1">STYLE GUIDE</h4>
-                                            <p>Armed with design inspiration, we created a style guide featuring a color palette, buttons, icons, and more. Due to the small screen size of an Apple Watch, Apple has fairly strict design guidelines which we made sure to follow (such as SF Pro font and standard button sizes).</p>
-                                        </div>
-                                            <img src="images/Lingozilla/style guide.png" class="align-self-center mr-3 project-image" alt="Lingozilla style guide">
-                                    </li>
-                                    <li class="media">
-                                        <div class="media-body" id="ideate-6">
-                                            <h4 class="mt-0 mb-1">USER FLOW</h4>
-                                            <p>In our user flow, we designed an app architecture that best allowed the user to navigate through the app's features and activites.</p>
-                                        </div>
-                                            <img src="images/Lingozilla/User Flow.png" class="align-self-center mr-3 project-image" alt="Lingozilla user flow">
-                                    </li>
-                                    <li class="media">
-                                        <div class="media-body" id="ideate-7">
-                                            <h4 class="mt-0 mb-1">SKETCHES</h4>
-                                            <p>Sketching wireframes proved to be incredibly valuable because it helped us make decisions about what to put on each screen and expand on our user flow, working through the specific actions the user would take throughout each activity.</p>
-                                        </div>
-                                            <img src="images/Lingozilla/SKETCHES.png" class="align-self-center mr-3 project-image" alt="Lingozilla wireframe sketches">
-                                    </li>
-                                </ul>                 
-                            </div>
-                </section>
+                        <section id="ideate" class="project_section">
+                                <h2 style="padding-top:40px;">IDEATE <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                                    <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                                </svg> </span> </h2>
+                                    <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                        <ul class="list-unstyled">
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-1">
+                                                <h4 class="mt-0 mb-1">I LIKE, I WISH, WHAT IF</h4>
+                                                <p>In the ideation phase, we started brainstorming potential features and functions of our app, beginning with an "I Like, I Wish, What If" diagram. On each card is a feature that we or our research subjects appreciated when learning a language as well as anything that enhances or might enhance the learning process. </p>
+                                            </div>
+                                                <img src="images/Lingozilla/I Like, I Wish, What If_.png" class="align-self-center mr-3 project-image" alt="Lingozilla I like, I wish, what if">
+                                            </li>
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-2">
+                                                    <h4 class="mt-0 mb-1">FEATURE PRIORITIZATION</h4>
+                                                    <p>Next, we used the MoSCoW Method to prioritize our ideas/features based on user needs and feasibility of implementation.</p>
+                                                </div>
+                                                    <img src="images/Lingozilla/Frame 49.png" class="align-self-center mr-3 project-image" alt="Lingozilla MoSCoW method">
+                                            </li>
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-3">
+                                                    <h4 class="mt-0 mb-1">STORYBOARD</h4>
+                                                    <p>We created a storyboard detailing a hypothetical target user’s learning frustrations, discovery of Lingozilla, use of the app, and finally, learning success thanks to Lingozilla.</p>
+                                                </div>
+                                                    <img src="images/Lingozilla/Storyboard (1).png" class="align-self-center mr-3 project-image" alt="Lingozilla storyboard" >
+                                            </li>
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-4">
+                                                <h4 class="mt-0 mb-1">MOOD BOARD</h4>
+                                                <p>When creating the mood board, we examined and documented how other Apple Watch apps implemented features like writing, speech, card flips, and progress tracking. We also added styling inspiration. This step helped us better understand Apple Watch design standards and best practices before actually designing Lingozilla.</p>
+                                            </div>
+                                                <img src="images/Lingozilla/Moodboard.png" class="align-self-center mr-3 project-image" alt="Lingozilla mood board">
+                                            </li>
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-5">
+                                                    <h4 class="mt-0 mb-1">STYLE GUIDE</h4>
+                                                    <p>Armed with design inspiration, we created a style guide featuring a color palette, buttons, icons, and more. Due to the small screen size of an Apple Watch, Apple has fairly strict design guidelines which we made sure to follow (such as SF Pro font and standard button sizes).</p>
+                                                </div>
+                                                    <img src="images/Lingozilla/style guide.png" class="align-self-center mr-3 project-image" alt="Lingozilla style guide">
+                                            </li>
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-6">
+                                                    <h4 class="mt-0 mb-1">USER FLOW</h4>
+                                                    <p>In our user flow, we designed an app architecture that best allowed the user to navigate through the app's features and activites.</p>
+                                                </div>
+                                                    <img src="images/Lingozilla/User Flow.png" class="align-self-center mr-3 project-image" alt="Lingozilla user flow">
+                                            </li>
+                                            <li class="media">
+                                                <div class="media-body" id="ideate-7">
+                                                    <h4 class="mt-0 mb-1">SKETCHES</h4>
+                                                    <p>Sketching wireframes proved to be incredibly valuable because it helped us make decisions about what to put on each screen and expand on our user flow, working through the specific actions the user would take throughout each activity.</p>
+                                                </div>
+                                                    <img src="images/Lingozilla/SKETCHES.png" class="align-self-center mr-3 project-image" alt="Lingozilla wireframe sketches">
+                                            </li>
+                                        </ul>                 
+                                    </div>
+                        </section>
 
-                <section id="prototype" style="padding-left:50px; padding-right:50px;">
-                    <h2 style="padding-top:40px;">PROTOTYPE <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
-                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
-                    </svg> </span> </h2>
-                        <div class="row"  style="--bs-gutter-y:1.5 rem">
-                            <ul class="list-unstyled">
-                                
-                                <li class="media">
-                                    <div class="media-body" id="prototype-2">
-                                    <h4 class="mt-0 mb-1">WIREFRAMES</h4>
-                                    <p class="subhead">Apple Watch App</p>
-                                    <p>After working through the information layout and screen scketches, we started building the frames in Figmma.</p>
-                                    <img src="images/Lingozilla/Wireframes.png" class="align-self-center mr-3 project-image" alt="Lingozilla lo-fi watch wireframes">
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <p class="subhead">iOS Companion App</p>
-                                    <p>The Lingozilla watch app was designed to compliment a mobile app. This mobile app offers an expanded view of the watch app and provides easy account creation and personalization. All activities can be played on both the mobile and watch Lingozilla apps. While our project focused on building-out the watch prototype, we designed three pages of the mobile app as a starting point for further project development.</p>
-                                    <img src="images/Lingozilla/Mobile App Wireframe.png" class="align-self-center mr-3 project-image" alt="Lingozilla mobile wireframes">
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <p class="subhead">Product Page (Web)</p>
-                                    <p>Additionally, we designed a product page for web users to easily learn about the application before download. This web page is designed to highlight Lingozilla's convenience and effective learning tools.</p>
-                                    <img src="images/Lingozilla/Webpage dashboard.png" class="align-self-center mr-3 project-image" alt="Lingozilla web wireframes">
-                                    </div>
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="prototype-3">
-                                        <h4 class="mt-0 mb-1">LO-FI PROTOTYPE</h4>
-                                        <p>Linking our watch wireframes together provided us with the ability to test our own workflows and provided us with a helpful artifact to use in usability testing.</p>
-                                    </div>
-                                        <img src="images/Lingozilla/User Flow (1).png" class="align-self-center mr-3 project-image" alt="EG user flow with wireframes">
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="prototype-4">
-                                        <h4 class="mt-0 mb-1">USABILITY TESTING</h4>
-                                        <p>Through four usability tests, we learned a lot about how users viewed and interacted with our application. We discovered that users had trouble using the Apple Watch prototype without access to the Digital Crown or other buttons that are deeply integrated with the device itself. For the best possible data, we would need to build a skeleton application in XCode and run it on a demo device.</p>
-                                        <br>
-                                        <p>In the meantime, we received the following valuable feedback:</p>
-                                            <ol>
-                                                <li>The user needed more clarity on how to return to the homepage and expected the “cancel” button to take them back to the homepage.</li>
-                                                <li>The user could not find the homepage after completing the task. They had trouble tapping cancel or the virtual Digital Crown to return.</li>
-                                                <li>Icons on the Streak view were unclear on what they represented, though the activities page was clearer. They suggested we just keep that page and remove the earlier icons.</li>
-                                            </ol> 
-                                    </div>
-                                </li>
-                            </ul>                 
-                        </div>
-                </section>
+                        <section id="prototype" class="project_section">
+                            <h2 style="padding-top:40px;">PROTOTYPE <span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                                <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                            </svg> </span> </h2>
+                                <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                    <ul class="list-unstyled">
+                                        
+                                        <li class="media">
+                                            <div class="media-body" id="prototype-2">
+                                            <h4 class="mt-0 mb-1">WIREFRAMES</h4>
+                                            <p class="subhead">Apple Watch App</p>
+                                            <p>After working through the information layout and screen scketches, we started building the frames in Figmma.</p>
+                                            <img src="images/Lingozilla/Wireframes.png" class="align-self-center mr-3 project-image" alt="Lingozilla lo-fi watch wireframes">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <p class="subhead">iOS Companion App</p>
+                                            <p>The Lingozilla watch app was designed to compliment a mobile app. This mobile app offers an expanded view of the watch app and provides easy account creation and personalization. All activities can be played on both the mobile and watch Lingozilla apps. While our project focused on building-out the watch prototype, we designed three pages of the mobile app as a starting point for further project development.</p>
+                                            <img src="images/Lingozilla/Mobile App Wireframe.png" class="align-self-center mr-3 project-image" alt="Lingozilla mobile wireframes">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <p class="subhead">Product Page (Web)</p>
+                                            <p>Additionally, we designed a product page for web users to easily learn about the application before download. This web page is designed to highlight Lingozilla's convenience and effective learning tools.</p>
+                                            <img src="images/Lingozilla/Webpage dashboard.png" class="align-self-center mr-3 project-image" alt="Lingozilla web wireframes">
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="prototype-3">
+                                                <h4 class="mt-0 mb-1">LO-FI PROTOTYPE</h4>
+                                                <p>Linking our watch wireframes together provided us with the ability to test our own workflows and provided us with a helpful artifact to use in usability testing.</p>
+                                            </div>
+                                                <img src="images/Lingozilla/User Flow (1).png" class="align-self-center mr-3 project-image" alt="EG user flow with wireframes">
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="prototype-4">
+                                                <h4 class="mt-0 mb-1">USABILITY TESTING</h4>
+                                                <p>Through four usability tests, we learned a lot about how users viewed and interacted with our application. We discovered that users had trouble using the Apple Watch prototype without access to the Digital Crown or other buttons that are deeply integrated with the device itself. For the best possible data, we would need to build a skeleton application in XCode and run it on a demo device.</p>
+                                                <br>
+                                                <p>In the meantime, we received the following valuable feedback:</p>
+                                                    <ol>
+                                                        <li>The user needed more clarity on how to return to the homepage and expected the “cancel” button to take them back to the homepage.</li>
+                                                        <li>The user could not find the homepage after completing the task. They had trouble tapping cancel or the virtual Digital Crown to return.</li>
+                                                        <li>Icons on the Streak view were unclear on what they represented, though the activities page was clearer. They suggested we just keep that page and remove the earlier icons.</li>
+                                                    </ol> 
+                                            </div>
+                                        </li>
+                                    </ul>                 
+                                </div>
+                        </section>
 
-                <section id="conclusion" style="padding-left:50px; padding-right:50px;">
-                    <h2 style="padding-top:40px;">FINAL OUTPUT<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
-                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
-                    </svg> </span> </h2>
-                        <div class="row"  style="--bs-gutter-y:1.5 rem">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                    <div class="media-body" id="conclusion-1">
-                                    <h4 class="mt-0 mb-1">WATCH & MOBILE PROTOTYPES</h4>
-                                    <p>We applied some of this feedback directly to our Hi-Fi materials, though there were times when feedback was at odds with other usability results. In those cases, careful thought was needed to decide what elements should be amended or stay as they were. We created a complete Apple Watch app prototype and a smaller clickable sketch of a companion app that resides on iOS.</p>
-                                    </div>
-                                    <br>
-                                    <a class="inline_link" href="https://www.figma.com/proto/B40l904k2Ervdy6s0RJ1rt/Draft-PocketLingo-Workspace?type=design&node-id=636-4630&t=QvxEgzVlBnvZCVpx-0&scaling=scale-down&page-id=636%3A4598&starting-point-node-id=636%3A4630&show-proto-sidebar=1" target="_blank">Watch App Prototype</a>
-                                    <br>
-                                    <a class="inline_link" href="https://www.figma.com/proto/B40l904k2Ervdy6s0RJ1rt/Draft-PocketLingo-Workspace?type=design&node-id=1008-2930&t=QvxEgzVlBnvZCVpx-0&scaling=scale-down&page-id=867%3A1814&starting-point-node-id=1008%3A2930" target="_blank">Mobile Prototype</a>
-                                </li>
-                                <li class="media">
-                                    <div class="media-body" id="conclusion-2">
-                                    <h4 class="mt-0 mb-1">PRODUCT PAGE</h4>
-                                    <p>The product page was written using Bootstrap 5 to provide basic columns and responsive features. Additional typefaces, adjusted CSS, and scripts were added to the page as well. Figma was used in conjunction with Shots.so to create assets for the page. We were careful to check color accessibility and provide alt-text whenever images were used.
-                                    </p>
-                                    </div>
-                                    <br>
-                                    <a class="inline_link" href="https://github.com/toastermitts/Lingozilla" target="_blank">GitHub Respository</a>
-                                    <br>
-                                    <a class="inline_link" href="https://toastermitts.github.io/Lingozilla/" target="_blank">Live Product Page</a>
-                                </li>
-                            </ul>                 
-                        </div>
-                </section>
+                        <section id="conclusion" class="project_section">
+                            <h2 style="padding-top:40px;">FINAL OUTPUT<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                                <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                            </svg> </span> </h2>
+                                <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                    <ul class="list-unstyled">
+                                        <li class="media">
+                                            <div class="media-body" id="conclusion-1">
+                                            <h4 class="mt-0 mb-1">WATCH & MOBILE PROTOTYPES</h4>
+                                            <p>We applied some of this feedback directly to our Hi-Fi materials, though there were times when feedback was at odds with other usability results. In those cases, careful thought was needed to decide what elements should be amended or stay as they were. We created a complete Apple Watch app prototype and a smaller clickable sketch of a companion app that resides on iOS.</p>
+                                            </div>
+                                            <br>
+                                            <a class="inline_link" href="https://www.figma.com/proto/B40l904k2Ervdy6s0RJ1rt/Draft-PocketLingo-Workspace?type=design&node-id=636-4630&t=QvxEgzVlBnvZCVpx-0&scaling=scale-down&page-id=636%3A4598&starting-point-node-id=636%3A4630&show-proto-sidebar=1" target="_blank">Watch App Prototype</a>
+                                            <br>
+                                            <a class="inline_link" href="https://www.figma.com/proto/B40l904k2Ervdy6s0RJ1rt/Draft-PocketLingo-Workspace?type=design&node-id=1008-2930&t=QvxEgzVlBnvZCVpx-0&scaling=scale-down&page-id=867%3A1814&starting-point-node-id=1008%3A2930" target="_blank">Mobile Prototype</a>
+                                        </li>
+                                        <li class="media">
+                                            <div class="media-body" id="conclusion-2">
+                                            <h4 class="mt-0 mb-1">PRODUCT PAGE</h4>
+                                            <p>The product page was written using Bootstrap 5 to provide basic columns and responsive features. Additional typefaces, adjusted CSS, and scripts were added to the page as well. Figma was used in conjunction with Shots.so to create assets for the page. We were careful to check color accessibility and provide alt-text whenever images were used.
+                                            </p>
+                                            </div>
+                                            <br>
+                                            <a class="inline_link" href="https://github.com/toastermitts/Lingozilla" target="_blank">GitHub Respository</a>
+                                            <br>
+                                            <a class="inline_link" href="https://toastermitts.github.io/Lingozilla/" target="_blank">Live Product Page</a>
+                                        </li>
+                                    </ul>                 
+                                </div>
+                        </section>
 
-                <section id="nextsteps" style="padding-left:50px; padding-right:50px;">
-                    <h2 style="padding-top:40px;">NEXT STEPS<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
-                        <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
-                    </svg> </span> </h2>
-                        <div class="row"  style="--bs-gutter-y:1.5 rem">
-                            <ul class="list-unstyled">
-                                <li class="media">
-                                    <div class="media-body" id="">
-                                    <p>Although the functionality of the Apple Watch as a learning platform is limited, we see great potential for it to serve as a branch-off device for the iPhone or (in the future) Apple Vision Pro. Potential next steps would focus on expanding the iOS application and building a properly coded demo that would run on a real Apple Watch to test against.
-                                    </p>
-                                    </div>
-                                </li>
-                            </ul>                 
-                        </div>
-                </section>
-            </div> 
-        </main>
-
+                        <section id="nextsteps" class="project_section">
+                            <h2 style="padding-top:40px;">NEXT STEPS<span> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 60 60" fill="none">
+                                <path d="M28.5 0.5L32.2344 21.2454L50.7822 11.2305L36.8912 27.0848L56.2854 35.3418L35.2292 34.3664L40.8657 54.6776L28.5 37.607L16.1343 54.6776L21.7708 34.3664L0.714554 35.3418L20.1088 27.0848L6.2178 11.2305L24.7656 21.2454L28.5 0.5Z" fill="#FE5D26"/>
+                            </svg> </span> </h2>
+                                <div class="row"  style="--bs-gutter-y:1.5 rem">
+                                    <ul class="list-unstyled">
+                                        <li class="media">
+                                            <div class="media-body" id="">
+                                            <p>Although the functionality of the Apple Watch as a learning platform is limited, we see great potential for it to serve as a branch-off device for the iPhone or (in the future) Apple Vision Pro. Potential next steps would focus on expanding the iOS application and building a properly coded demo that would run on a real Apple Watch to test against.
+                                            </p>
+                                            </div>
+                                        </li>
+                                    </ul>                 
+                                </div>
+                        </section>
+                    </div> 
+                </main>
+            </div>
+        </div>
     </div>
 </div>
 
-<!--Footer-->
-<footer id="mainfoot" class="text-center text-lg-start">
 
-    <!-- Grid container -->
-    <div class="container mb-6 pt-0 pb-0">
-    <!-- Section: Links -->
-    <section class="">
-    <!--Grid row-->
-    <div class="row" style="padding-bottom:48px;">
-    
-    <!-- Grid column -->
-    <div class="col-sm-6 footercontact">
-      <h6 class="mb-3">Contact Me!</h6>
-      <p class="mb-3">kathryncwilliams298@gmail.com</p>
-      <p >904-502-2320</p>
+
+<footer id="mainfoot">
+    <div class="container-fluid pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-12 footercontact mb-4">
+                        <h6 class="mb-3">Contact Me!</h6>
+                        <p class="mb-2">kathryncwilliams298@gmail.com</p>
+                        <p>905-502-2320</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 d-none d-sm-block footertabs-lg">
+                        <a href="aboutme.html"><p class="pb-3">ABOUT ME</p></a>
+                        <a href="index.html"><p>HOME</p></a>
+                    </div>
+                    <div class="col-12 d-sm-none footertabs-sm">
+                        <a href="aboutme.html" style="padding-right:20px; border-right: 2px solid black;">ABOUT ME</a>
+                        <a href="index.html" style="padding-left: 16px;">HOME</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <!-- Grid column -->
-    <div class="col-sm-6 footertabs">
-      <p class="mb-3">
-        <a href="index.html">HOME</a>
-      </p>
-      <p>
-        <a href="aboutme.html">ABOUT ME</a>
-      </p>
-  
-    </div>
-    
-    </div>
-    <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
-    </div>
-    <!-- Grid container -->
-    
-  </footer>
-  <!-- Footer -->
+</footer>
   
  
 
