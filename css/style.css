@@ -363,6 +363,14 @@ a.m-nav-link{
     }
 }
 
+
+@media screen and (max-width:400px) {
+    .starburst{
+        display: none;
+    }
+}
+
+
 .topnav a.split {
     float: left;
 }
