@@ -140,7 +140,7 @@ body {
 .container-xs {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  padding-top: 100px ;
+  padding-top: 80px ;
   padding-bottom: 80px;
 }
 
@@ -574,7 +574,18 @@ a.m-nav-link{
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    line-height: 5px;
+    line-height: 25px;
+}
+
+ul.nav {
+    gap: 10px;
+}
+
+a.nav-link {
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .nav-link.active {
@@ -597,14 +608,13 @@ a.m-nav-link{
     #sidemenu.affix {
         position: fixed;
         top: 40px;
-        padding-top: 40px; /* Add 20px padding to the top when affixed */
+        padding-top: 70px; /* Add 20px padding to the top when affixed */
     }
 }
 
 .media-body {
     margin-top:20px;
 }
-
 
 
 /* only show subitems when parent is active*/
