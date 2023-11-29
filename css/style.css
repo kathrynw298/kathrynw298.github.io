@@ -129,7 +129,6 @@ body {
 }
 
 * {box-sizing: border-box;}
-
 .container,
 .container-fluid,
 .container-xxl,
@@ -144,6 +143,12 @@ body {
   padding-bottom: 80px;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        align-items:center;
+    }
+}
 
 .full-bleed {
     box-shadow: 0 0 0 100vmax #FE5D26;
@@ -341,7 +346,6 @@ a.m-nav-link{
         display: flex;
         align-items:center;
     }
-
 }
 
 @media screen and (min-width: 576px) {
@@ -360,6 +364,12 @@ a.m-nav-link{
     h5 {
         font-size: 20px;
         line-height: 28px;
+    }
+
+    h4 {
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 500 !important;
     }
 }
 
