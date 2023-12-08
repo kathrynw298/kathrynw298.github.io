@@ -164,6 +164,10 @@ body {
     background-color: #EDE38C;
 }
 
+.btn {
+    box-sizing: border-box;
+}
+
 .btn-primary {
     color: white;
     border-radius: 2px;
@@ -179,6 +183,45 @@ body {
     --bs-btn-active-color: white;
     --bs-btn-active-bg: #d5491a;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btn-secondary {
+    box-sizing: border-box;
+    color: #FE5D26;
+    border-radius: 2px;
+    border: 2px solid #FE5D26;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    text-decoration: none;
+    --bs-btn-bg: white;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #FE5D26;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #FE5D26;
+    --bs-btn-active-border-color: #fe5d26;
+    --bs-btn-hover-border-color: #fe5d26;
+    padding: 4px 10px 4px 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btn-deactive {
+    color: rgb(243, 243, 243);
+    background-color: #dd4d1dc0;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    text-decoration: none;
+    --bs-btn-bg: #dd4d1dc0;
+    --bs-btn-hover-color: rgb(243, 243, 243);
+    --bs-btn-hover-bg: #dd4d1dc0;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: rgb(243, 243, 243);
 }
 
 
@@ -389,24 +432,6 @@ a.m-nav-link{
     background-color: #333;
 }
 
-.btn-deactive {
-    color: rgb(243, 243, 243);
-    background-color: #dd4d1dc0;
-    padding: 6px 12px;
-    border-radius: 2px;
-    border: 0px;
-    font-size: 18px;
-    font-family: 'Karla', sans-serif;
-    font-style: italic;
-    font-weight: 600px;
-    text-decoration: none;
-    --bs-btn-bg: #dd4d1dc0;
-    --bs-btn-hover-color: rgb(243, 243, 243);
-    --bs-btn-hover-bg: #dd4d1dc0;
-    --bs-btn-active-color: white;
-    --bs-btn-active-bg: rgb(243, 243, 243);
-}
-
 
 #nav-title a {
     color: white;
@@ -492,32 +517,38 @@ a.m-nav-link{
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: left;
     background-color: #FFFEF9;
     border-radius: 10px;
     border: none;
-    padding-top: 5px;
+    overflow: hidden;
 }
 .card-body {
-    padding-bottom: 10px;
-    padding-left: 24px;
+    padding-bottom: 20px;
     padding-right: 24px;
+    padding-top:20px;
+    padding-left:0;
 }
 .card-title {
     padding-top: 0px;
     font-size: 28px;
-    font-family: 'Karla', sans-serif;
     font-weight: 400;
     margin: 0;
-    margin-bottom: 0px;
+    margin-bottom: 6px;
+    font-family: 'Fraunces', serif;
+}
+
+img.card-img {
+    padding: 10px;
+    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+    height: auto; /* Retains the aspect ratio */
 }
 
 .card-text {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Karla', sans-serif;
     font-weight: 300;
-    margin: 6px 0px 6px 0px;
-    line-height: 18px;
+    margin: 24px 0px 28px 0px;
+    line-height: 22px;
 }
 .card-footer {
     color: transparent;
@@ -526,6 +557,32 @@ a.m-nav-link{
     padding-top:10px;
     padding-left: 24px;
     padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-body {
+        padding-bottom: 28px;
+        padding-right: 28px;
+        padding-top: 10px;
+        padding-left: 28px;
+    } 
+
+    .btn-primary {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-body {
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-top: 6px;
+        padding-left: 20px;
+    } 
+
+    .btn-primary {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -813,39 +870,6 @@ a {
     padding: 10px 20px;
   }
   
-  /* Create four equal columns that sits next to each other 
-  .column{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    overflow: hidden;
-    max-height: 1670px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    object-fit: cover;
-} */
-  
-/* Responsive layout - makes a two column-layout instead of four columns
-  @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
-  } 
-  
-  Responsive layout - makes the two columns stack on top of each other instead of next to each other
-  @media screen and (max-width: 600px) {
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-    }
-  } */
 
 /* Infographics Page */
 
