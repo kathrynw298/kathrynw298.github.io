@@ -375,9 +375,7 @@ a.m-nav-link{
     .btn-primary {
         margin-bottom:15px;
     }
-    .main-content {
-        margin-left: 0px;
-    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -518,7 +516,7 @@ a.m-nav-link{
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #FFFEF9;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     overflow: hidden;
 }
@@ -1001,6 +999,12 @@ a {
     line-height: 20px;
     font-weight: 400;
     text-align: end;
+}
+
+@media (max-width: 768px) {
+    .resume-descriptor p {
+        text-align: start;
+    }
 }
 
 .resume-employer {
