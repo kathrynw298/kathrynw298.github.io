@@ -76,11 +76,11 @@ h6 {
 }
 
 .inline_link {
-    color:black; 
+    color: black;
     margin: 2px 0px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Karla', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     text-decoration: underline;
 }
@@ -409,9 +409,13 @@ a.m-nav-link{
     }
 
     h4 {
-        font-size: 26px;
-        line-height: 32px;
+        font-size: 28px !important;
+        line-height: 32px !important;
         font-weight: 500 !important;
+    }
+
+    h1  {
+        font-size: 45px !important;
     }
 }
 
@@ -915,13 +919,13 @@ a {
 .carousel-indicators [data-bs-target] {
     text-indent: 0;
     text-align: left;
-    width: 200px;
+    width: 130px;
     height: 60%;
     opacity: 1;
     padding-top: 20px;
     padding-bottom: 20px;
     color: black;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000000b1;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
