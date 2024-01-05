@@ -721,7 +721,8 @@ a.nav-link {
 }
 
 .project-image {
-    max-width: 100%; 
+    width: 100%;
+    max-width:800px !important; 
     height: auto;
     margin: 20px 0px !important;
     border: .5px solid #D3D3D3;
@@ -897,6 +898,10 @@ a {
     --bs-accordion-active-bg: #C3E9EE;
     --bs-accordion-btn-color: black;
     --bs-accordion-active-color: black;
+}
+
+.accordion-body img {
+    max-width: 600px;
 }
 
 .carousel-indicators {
