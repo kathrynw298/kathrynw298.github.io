@@ -394,6 +394,7 @@ a.m-nav-link{
     .project_section {
         padding-left:30px;
         padding-right:30px;
+        padding-bottom: 40px;
     }
 }
 
@@ -401,6 +402,7 @@ a.m-nav-link{
     .project_section {
         padding-left:20px;
         padding-right:20px;
+        padding-bottom: 20px;
     }
 
     h5 {
@@ -733,10 +735,6 @@ a.nav-link {
     margin-top: 20px;
     border: .5px solid #D3D3D3;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 3px;
-}
-
-.media {
-    margin-bottom: 36px;
 }
 
 #research.full-bleed {
