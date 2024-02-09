@@ -271,7 +271,7 @@ a.m-nav-link{
     --bs-dropdown-link-color: white;
     --bs-dropdown-link-hover-color: white;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 0;;
 }
 
 .dropdown li a{
@@ -287,7 +287,7 @@ a.m-nav-link{
 }
 
 .dropdown-menu[data-bs-popper] {
-    margin-top:11px;
+    margin-top:7px;
 }
 
 .navbar-toggler {
@@ -680,10 +680,8 @@ a.nav-link {
 
 
 @media (min-width: 768px) {
-    #sidemenu.affix {
-        position: fixed;
-        top: 80px;
-        padding-top: 0 !important;
+    #sidemenu.position-sticky {
+        top: 80px !important;
     }
 }
 

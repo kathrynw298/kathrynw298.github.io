@@ -1,20 +1,13 @@
 console.log("Your index.js file is loaded correctly!");
 
 
-$('#sidemenu').affix({
-  offset:{
-      top: $('#header').outerHeight() -5,
-      bottom: $('footer').outerHeight() + 130
-  }
-});
 
 
 // Activate scrollspy on your sidebar navigation
 const scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: '#sidemenu', // ID of your sidebar element
-  offset: 1700, // Offset from the top to trigger the change
+  offset: 200, // Offset from the top to trigger the change
 });
-
 
 AOS.init({
   duration: 1200,
