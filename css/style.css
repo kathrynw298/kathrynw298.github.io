@@ -682,8 +682,8 @@ a.nav-link {
 @media (min-width: 768px) {
     #sidemenu.affix {
         position: fixed;
-        top: 40px;
-        padding-top: 70px; /* Add 20px padding to the top when affixed */
+        top: 80px;
+        padding-top: 0 !important;
     }
 }
 

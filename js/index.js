@@ -12,7 +12,7 @@ $('#sidemenu').affix({
 // Activate scrollspy on your sidebar navigation
 const scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: '#sidemenu', // ID of your sidebar element
-  offset: 300, // Offset from the top to trigger the change
+  offset: 1700, // Offset from the top to trigger the change
 });
 
 
