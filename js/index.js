@@ -24,7 +24,7 @@ function myFunction() {
 
 const button = document.querySelector('button');
 
-button.addEventListener('mouseover', () => {
+button.addEventListener('mouseover', () => { 
   button.style.backgroundColor = '#BA441B';
 });
 
