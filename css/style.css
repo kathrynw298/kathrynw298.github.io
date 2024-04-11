@@ -104,6 +104,10 @@ h6 {
 	border-bottom: 3px solid #0E0E0E;
 }
 
+.row.m-0 {
+    justify-content: center;
+}
+
 #fauaf_jumbotron {
     background: url('../images/FAUAF/FAUAF_header.png') no-repeat top;
     background-size: cover;
