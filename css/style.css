@@ -121,8 +121,9 @@ h6 {
 }
 
 body {
-    position: relativ e;
+    position: relative;
     color: #0E0E0E;
+    overflow-x: hidden;
 }
 
 * {box-sizing: border-box;}
